@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-main {
+#contenitore {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,7 +13,7 @@ main {
   background-color: grey;
 }
 
-.container-password {
+#container-password {
   width: 600px;
   height: 300px;
   display: flex;
@@ -23,11 +23,15 @@ main {
   display: flex;
 }
 
-.container-password img {
-  align-items: center;
-}
-
 #password {
   background-color: white;
   color: red;
+}
+
+#contenitore {
+  display: none;
+}
+
+#contenitore.visible {
+  display: block;
 }
