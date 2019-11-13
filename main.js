@@ -1,4 +1,4 @@
-alert('Ciao! ci servono alcuni dati per creare una password impeccabileI clicca OK per continuare')
+alert('Ciao! ci servono alcuni dati per creare una password impeccabile! clicca OK per continuare');
 var nome = prompt('Per favore inserisci il tuo nome');
 var cognome = prompt('Ora inserisci il tuo cognome');
 var colorePreferito = prompt("Qual'è il tuo colore preferito?");
