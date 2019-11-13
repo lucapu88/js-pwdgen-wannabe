@@ -10,7 +10,6 @@
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background-color: grey;
 }
 
 #container-password {
@@ -32,6 +31,6 @@
   display: none;
 }
 
-#contenitore.visible {
-  display: block;
+#contenitore.visibile {
+  display: flex;
 }
