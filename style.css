@@ -3,3 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: grey;
+}
+
+.container-password {
+  width: 600px;
+  height: 300px;
+  display: flex;
+}
+
+.emoticon{
+  display: flex;
+}
+
+.container-password img {
+  align-items: center;
+}
+
+#password {
+  background-color: white;
+  color: red;
+}
